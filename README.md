@@ -30,8 +30,7 @@ A production-style web application hosted on AWS that stays available when an in
 
 ![Solution architecture diagram](docs/diagrams/architecture.svg)
 
-*Editable source: [`docs/diagrams/architecture.dot`](docs/diagrams/architecture.dot) (Graphviz).
-Regenerate with `dot -Tsvg docs/diagrams/architecture.dot -o docs/diagrams/architecture.svg` (or `-Tpng`).*
+*Diagram drawn with the official [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) (Q1 2022 release). The legend under the diagram summarises the numbered flow. The S3 gateway VPC endpoint (step 7 below) is not drawn, to keep the picture readable.*
 
 ### Request flow
 
